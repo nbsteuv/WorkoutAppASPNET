@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutApp.DAL", "WorkoutAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutApp.Model", "WorkoutApp.Model\WorkoutApp.Model.csproj", "{556DA46F-A1B3-4AE6-81EC-58963E951769}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutApp.Sessions", "WorkoutApp.Sessions\WorkoutApp.Sessions.csproj", "{6D48E9EE-5769-426F-8EAF-9757727BB635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutApp.WebUI", "WorkoutApp.WebUI\WorkoutApp.WebUI.csproj", "{9299B26B-11BD-4591-A922-F21CD2A85A68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{556DA46F-A1B3-4AE6-81EC-58963E951769}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{556DA46F-A1B3-4AE6-81EC-58963E951769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{556DA46F-A1B3-4AE6-81EC-58963E951769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D48E9EE-5769-426F-8EAF-9757727BB635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D48E9EE-5769-426F-8EAF-9757727BB635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D48E9EE-5769-426F-8EAF-9757727BB635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D48E9EE-5769-426F-8EAF-9757727BB635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9299B26B-11BD-4591-A922-F21CD2A85A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9299B26B-11BD-4591-A922-F21CD2A85A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9299B26B-11BD-4591-A922-F21CD2A85A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9299B26B-11BD-4591-A922-F21CD2A85A68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
