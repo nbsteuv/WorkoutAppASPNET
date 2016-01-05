@@ -12,3 +12,5 @@ C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\De
 C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\obj\Debug\WorkoutApp.DAL.csprojResolveAssemblyReference.cache
 C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\obj\Debug\WorkoutApp.DAL.dll
 C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\obj\Debug\WorkoutApp.DAL.pdb
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\obj\Debug\WorkoutApp.DAL.Migrations.Initial.resources
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\obj\Debug\WorkoutApp.DAL.csproj.GenerateResource.Cache
