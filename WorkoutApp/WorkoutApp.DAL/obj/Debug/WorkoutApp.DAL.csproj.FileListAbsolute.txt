@@ -1,0 +1,14 @@
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\WorkoutApp.DAL.dll.config
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\WorkoutApp.DAL.dll
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\WorkoutApp.DAL.pdb
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\WorkoutApp.Model.dll
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\WorkoutApp.Sessions.dll
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\WorkoutApp.Model.pdb
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\WorkoutApp.Sessions.pdb
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\obj\Debug\WorkoutApp.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\obj\Debug\WorkoutApp.DAL.dll
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.DAL\obj\Debug\WorkoutApp.DAL.pdb

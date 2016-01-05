@@ -1,0 +1,5 @@
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.Model\bin\Debug\WorkoutApp.Model.dll
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.Model\bin\Debug\WorkoutApp.Model.pdb
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.Model\obj\Debug\WorkoutApp.Model.csprojResolveAssemblyReference.cache
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.Model\obj\Debug\WorkoutApp.Model.dll
+C:\Users\Nick\Documents\GitHub\WorkoutAppASPNET\WorkoutApp\WorkoutApp.Model\obj\Debug\WorkoutApp.Model.pdb
