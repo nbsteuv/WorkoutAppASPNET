@@ -58,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ExerciseRepository.cs" />
     <Compile Include="Repositories\ExerciseSetRepository.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\WorkoutSessionRepository.cs" />
   </ItemGroup>
   <ItemGroup>
