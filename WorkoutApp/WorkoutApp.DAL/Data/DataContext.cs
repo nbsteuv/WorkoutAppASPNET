@@ -8,7 +8,7 @@ using WorkoutApp.Model;
 
 namespace WorkoutApp.DAL.Data
 {
-    class DataContext : DbContext
+    public class DataContext : DbContext
     {
         public DataContext() : base("DefaultConnection")
         {
