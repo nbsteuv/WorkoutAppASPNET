@@ -1,4 +1,5 @@
-﻿using System;
+﻿using WorkoutApp.Sessions.Repositories;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -8,7 +9,7 @@ using WorkoutApp.DAL.Data;
 
 namespace WorkoutApp.DAL.Repositories
 {
-    public abstract class RepositoryBase<TEntity> where TEntity : class
+    public abstract class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
         //I'm not completely clear here, so I'll have some questions if I don't find the answers in my reading by our first code review.
 
@@ -20,5 +21,11 @@ namespace WorkoutApp.DAL.Repositories
             this.context = context;
             this.dbSet = context.Set<TEntity>();
         }
+
+        public virtual void Test()
+        {
+            Console.WriteLine("Repository test method successful.");
+        }
+
     }
 }
