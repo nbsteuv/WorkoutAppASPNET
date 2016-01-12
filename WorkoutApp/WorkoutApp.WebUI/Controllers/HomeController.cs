@@ -33,6 +33,12 @@ namespace WorkoutApp.WebUI.Controllers
 
             return View();
         }
+
+        public ActionResult AddExercise()
+        {
+            return View();
+        }
+
         public ActionResult Index()
         {
             return View();
