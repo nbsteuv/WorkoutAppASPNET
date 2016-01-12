@@ -22,9 +22,9 @@ namespace WorkoutApp.DAL.Repositories
             this.dbSet = context.Set<TEntity>();
         }
 
-        public virtual void Test()
+        public virtual string Test()
         {
-            Console.WriteLine("Repository test method successful.");
+            return ("Repository test method for " + context + " successful.") ;
         }
 
     }

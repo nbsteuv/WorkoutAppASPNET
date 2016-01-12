@@ -8,6 +8,6 @@ namespace WorkoutApp.Sessions.Repositories
 {
     public interface IRepositoryBase<TEntity> where TEntity : class
     {
-        void Test();
+        string Test();
     }
 }

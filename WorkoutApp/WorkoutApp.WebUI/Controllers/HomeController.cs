@@ -21,6 +21,18 @@ namespace WorkoutApp.WebUI.Controllers
             this.workoutSessions = workoutSessions;
         }
 
+        public ActionResult TestRepositories()
+        {
+            string exerciseTestResult = exercises.Test();
+            string exerciseSetTestResult = exerciseSets.Test();
+            string workoutSessionTestResult = workoutSessions.Test();
+
+            ViewBag.exerciseTestResult = exerciseTestResult;
+            ViewBag.exerciseSetTestResult = exerciseSetTestResult;
+            ViewBag.workoutSessionTestResult = workoutSessionTestResult;
+
+            return View();
+        }
         public ActionResult Index()
         {
             return View();
