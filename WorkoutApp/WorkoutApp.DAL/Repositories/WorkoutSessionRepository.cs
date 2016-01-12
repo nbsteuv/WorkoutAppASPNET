@@ -4,11 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WorkoutApp.DAL.Data;
+using WorkoutApp.Model;
 
 namespace WorkoutApp.DAL.Repositories
 {
-    public class WorkoutSessionRepository
+    public class WorkoutSessionRepository : RepositoryBase<WorkoutSession>
     {
-        internal DataContext context;
+        public WorkoutSessionRepository(DataContext context) : base(context)
+        {
+            if (context == null)
+                throw new ArgumentNullException();
+        }
+
     }
 }
