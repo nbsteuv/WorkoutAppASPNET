@@ -10,7 +10,16 @@ namespace WorkoutApp.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        
+        IRepositoryBase<Exercise> exercises;
+        IRepositoryBase<ExerciseSet> exerciseSets;
+        IRepositoryBase<WorkoutSession> workoutSessions;
+
+        public HomeController(IRepositoryBase<Exercise> exercises, IRepositoryBase<ExerciseSet> exerciseSets, IRepositoryBase<WorkoutSession> workoutSessions)
+        {
+            this.exercises = exercises;
+            this.exerciseSets = exerciseSets;
+            this.workoutSessions = workoutSessions;
+        }
 
         public ActionResult Index()
         {
