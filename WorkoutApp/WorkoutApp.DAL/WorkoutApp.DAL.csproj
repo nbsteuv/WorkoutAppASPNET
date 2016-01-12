@@ -74,10 +74,6 @@
       <Project>{6d48e9ee-5769-426f-8eaf-9757727bb635}</Project>
       <Name>WorkoutApp.Sessions</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WorkoutApp.WebUI\WorkoutApp.WebUI.csproj">
-      <Project>{9299b26b-11bd-4591-a922-f21cd2a85a68}</Project>
-      <Name>WorkoutApp.WebUI</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201601052223586_Initial.resx">

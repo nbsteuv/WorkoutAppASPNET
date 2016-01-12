@@ -1,6 +1,9 @@
 using System;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
+using WorkoutApp.Sessions.Repositories;
+using WorkoutApp.Model;
+using WorkoutApp.DAL.Repositories;
 
 namespace WorkoutApp.WebUI.App_Start
 {
@@ -37,6 +40,9 @@ namespace WorkoutApp.WebUI.App_Start
 
             // TODO: Register your types here
             // container.RegisterType<IProductRepository, ProductRepository>();
+            container.RegisterType<IRepositoryBase<Exercise>, ExerciseRepository>();
+            container.RegisterType<IRepositoryBase<ExerciseSet>, ExerciseSetRepository>();
+            container.RegisterType<IRepositoryBase<WorkoutSession>, WorkoutSessionRepository>();
         }
     }
 }
