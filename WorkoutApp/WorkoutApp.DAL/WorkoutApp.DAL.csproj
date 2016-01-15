@@ -56,9 +56,6 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\ExerciseRepository.cs" />
-    <Compile Include="Repositories\ExerciseSetRepository.cs" />
-    <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\WorkoutSessionRepository.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,10 +66,6 @@
     <ProjectReference Include="..\WorkoutApp.Model\WorkoutApp.Model.csproj">
       <Project>{556da46f-a1b3-4ae6-81ec-58963e951769}</Project>
       <Name>WorkoutApp.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WorkoutApp.Sessions\WorkoutApp.Sessions.csproj">
-      <Project>{6d48e9ee-5769-426f-8eaf-9757727bb635}</Project>
-      <Name>WorkoutApp.Sessions</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -283,10 +283,6 @@
       <Project>{556da46f-a1b3-4ae6-81ec-58963e951769}</Project>
       <Name>WorkoutApp.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WorkoutApp.Sessions\WorkoutApp.Sessions.csproj">
-      <Project>{6d48e9ee-5769-426f-8eaf-9757727bb635}</Project>
-      <Name>WorkoutApp.Sessions</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
