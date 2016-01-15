@@ -10,7 +10,9 @@ namespace WorkoutApp.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        
+        WorkoutSessionRepository<WorkoutSession> workoutSessions;
+        WorkoutSessionRepository<Exercise> exercises;
+        WorkoutSessionRepository<ExerciseSet> exerciseSets;
 
         public HomeController()
         {
